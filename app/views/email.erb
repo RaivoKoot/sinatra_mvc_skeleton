@@ -1,0 +1,14 @@
+<%= erb :header %>
+
+    <h1>Send us an E-Mail</h1>
+
+    <form method="post">
+      From: <input type="text" name="from" value="<%= params[:from] %>" />
+
+      <input type="submit" name="submit" value="Submit"/>
+    </form>
+
+  </body>
+
+
+<%= erb :footer %>
